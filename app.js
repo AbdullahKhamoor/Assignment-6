@@ -161,21 +161,22 @@
 //?  Q11
 
 
-// function capitalizeFirstLetter(str){
-//     const word = str.split(' ');
-//     console.log(word);
-//    const upper = word.toUpperCase();
-//    console.log(upper);
+function capitalizeFirstLetter(str){
 
-//    const capitalize = word[0].toUppercase();
-
+    var words = str.split(" ");
     
-//   console.log(capitalize);
+    let result = "";
+    for (let i = 0; i < words.length; i++) {
+        let firstLetterCapital = words[i][0].toUpperCase() + words[i].slice(1)
+        result += firstLetterCapital + " ";
+    }
+    // console.log(result);
+   return result;
 
-//    const result = word.join(' ');
-//        console.log(result);
-//    return result;
-// }
+}
+const str = 'the quick brown fox';
+const capitalizedResult = capitalizeFirstLetter(str);
+console.log(capitalizedResult);
 
 //? Q12
 
