@@ -161,22 +161,22 @@
 //?  Q11
 
 
-function capitalizeFirstLetter(str){
+// function capitalizeFirstLetter(str){
 
-    var words = str.split(" ");
+//     var words = str.split(" ");
     
-    let result = "";
-    for (let i = 0; i < words.length; i++) {
-        let firstLetterCapital = words[i][0].toUpperCase() + words[i].slice(1)
-        result += firstLetterCapital + " ";
-    }
-    // console.log(result);
-   return result;
+//     let result = "";
+//     for (let i = 0; i < words.length; i++) {
+//         let firstLetterCapital = words[i][0].toUpperCase() + words[i].slice(1)
+//         result += firstLetterCapital + " ";
+//     }
+//     // console.log(result);
+//    return result;
 
-}
-const str = 'the quick brown fox';
-const capitalizedResult = capitalizeFirstLetter(str);
-console.log(capitalizedResult);
+// }
+// const str = 'the quick brown fox';
+// const capitalizedResult = capitalizeFirstLetter(str);
+// console.log(capitalizedResult);
 
 //? Q12
 
